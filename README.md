@@ -1,5 +1,6 @@
+Material source: [The Rust Programming Language Book](https://doc.rust-lang.org/book/title-page.html)
 
-#Common Commands
+# Common Commands
 
 - cargo new app
 	- Creates a new rust project in the designated dir
@@ -13,13 +14,15 @@
 	- Updates any dependencies to the most recent non-BC version (0.8.3 --> 0.8.4, but NOT 0.8.3 --> 0.9.0)
 - cargo check
 	- Performs a syntax check on all the app code, but does not build the app
+- `cargo doc --open`
+	- Creates documentation for the app and any dependencies
 
-#Common Actions
+# Common Actions
 - To add a dependency
 	- add it to Cargo.toml in the dependencies section
 
 
-#Fundamentals
+# Fundamentals
 - Variables default to immutable
 	- To declare a variable as mutable
 		- `let mut x = 5;`
